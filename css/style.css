@@ -9,6 +9,7 @@ navbar{
     height: 55px;
     width: 100%;
     border-bottom: silver 1px solid;
+
 }
 
 #video {
@@ -16,5 +17,28 @@ navbar{
 }
 
 #container {
-	margin: 0px 80px;
+    margin: 0px 80px;
+    background: grey;
+    display: flex;
+}
+#container > section , #container > div{
+flex: 1;
+}
+
+#search{
+    margin: 0 auto;
+    width: 30%
+}
+
+#search-id{
+    width: 80%;
+}
+
+#right{
+    background: red;
+   float: right;
+}
+
+#comments{
+    width: 645px;
 }

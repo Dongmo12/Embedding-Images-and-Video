@@ -4,8 +4,16 @@
 		 <link rel="stylesheet" type="text/css" href="css/style.css"> 
 	</head>
     <body>
-    	<navbar id="navbar"></navbar>
-    	<div id="container">
+    	<navbar id="navbar">
+			<div id="search"> 
+
+			<input type="text" id="search-id" placeholder="search">
+			<input type="button" value="search" id="search-button">
+
+			</div>
+		</navbar>
+
+    	<div id="container"> 
 	    	<section id="video">
 				<iframe width="645" height="403"
 				src="https://www.youtube.com/embed/V74l_zS1x8E">
@@ -76,13 +84,28 @@
 	    				</div>
 	    			</div>
 	    		</div>
-	    	</section>
+			</section>	
+					
 	    	<section id="comments">
-	    	</section>
+			</section>
+
+			<div id="right">
 	    	<section id="next-video">
+					<div id="next-video-control">
+							<span>Up next</span>
+							<span>AutoPlay</span>
+					</div>
+					<div id="next-video-text">
+						<img src="" alt="">
+						<h2>Contributing to open source </h2>
+						<span>The odin project</span>
+						<span>28k views</span>
+					</div>
 	    	</section>
 	    	<section id="more-videos">
-	    	</section>
+				
+			</section>
+		</div>
     	</div>
     </body>
 </html>
