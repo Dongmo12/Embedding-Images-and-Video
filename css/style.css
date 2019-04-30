@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 navbar{
@@ -14,18 +15,18 @@ navbar{
 
 #video {
     margin-top: 90px;
+    width: 645px;
+    float: left;
 }
 
 #container {
     margin: 0px 80px;
     background: grey;
-    display: flex;
 }
-#container > section , #container > div{
-flex: 1;
+#container > section , #container > div {
 }
 
-#search{
+#search {
     margin: 0 auto;
     width: 30%
 }
@@ -35,10 +36,34 @@ flex: 1;
 }
 
 #right{
-    background: red;
-   float: right;
+    width: 400px;
+    min-width: 400px;
+    float: right;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+#right img {
+    width: 168px;
+    height: 94px;
+}
+
+#right h2 {
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #comments{
     width: 645px;
+    float: left;
+}
+
+#next-video {
+    width: 500px;
+
+}
+
+#video-title {
+    font-size: 18px;
+    font-weight: 400;
 }
