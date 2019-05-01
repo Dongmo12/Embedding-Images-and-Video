@@ -3,7 +3,7 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
-navbar{
+.navbar{
     background-color: white;
     position: fixed;
     top: 0;
@@ -13,29 +13,29 @@ navbar{
 
 }
 
-#video {
+.video {
     margin-top: 90px;
     width: 645px;
     float: left;
 }
 
-#container {
+.container {
     margin: 0px 80px;
     background: grey;
 }
-#container > section , #container > div {
+.container > section , .container > div {
 }
 
-#search {
+.search {
     margin: 0 auto;
     width: 30%
 }
 
-#search-id{
+.search-id{
     width: 80%;
 }
 
-#right{
+.right{
     width: 400px;
     min-width: 400px;
     float: right;
@@ -43,32 +43,32 @@ navbar{
     margin-left: 50px;
 }
 
-#right img {
+.right img {
     width: 168px;
     height: 94px;
 }
 
-#right h2 {
+.right h2 {
     font-size: 14px;
     font-weight: 500;
 }
 
-#comments{
+.comments{
     width: 645px;
     float: left;
 }
 
-#next-video {
+.next-video {
     width: 500px;
 
 }
 
-#video-title {
+.video-title {
     font-size: 18px;
     font-weight: 400;
 }
 
-#comment{
+.comment{
     font-size: 18px;
     
 }
