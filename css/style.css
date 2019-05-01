@@ -15,7 +15,11 @@ body {
 
 .video {
     margin-top: 90px;
-    width: 645px;
+    width: 100%;
+}
+
+.left {
+    width: 74%;
     float: left;
 }
 
@@ -36,9 +40,8 @@ body {
 }
 
 .right{
-    width: 400px;
-    min-width: 400px;
-    float: right;
+    width: 20%;
+    float: left;
     margin-top: 90px;
     margin-left: 50px;
 }
@@ -64,7 +67,7 @@ body {
 }
 
 .video-title {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 400;
 }
 
