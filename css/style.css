@@ -3,6 +3,11 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: gray;
+}
+
 .navbar {
     background-color: white;
     position: fixed;
@@ -23,7 +28,7 @@ body {
 }
 
 .left {
-    width: 74%;
+    width: 65%;
     float: left;
 }
 
@@ -55,9 +60,10 @@ body {
     height: 94px;
 }
 
-.right h2 {
-    font-size: 14px;
+.right h2, h2 a {
+    font-size: 16px;
     font-weight: 500;
+    color: black;
 }
 
 .comments {
@@ -65,11 +71,16 @@ body {
     float: left;
 }
 
-.next-video {
+.next-video, .one-more-video {
     width: 500px;
     display: block;
-
+    height: 100px;
 }
+
+.one-more-video img {
+    text-align: left;
+}
+
 .more-videos{
     width: 500px;
 }
@@ -93,8 +104,17 @@ body {
     height: 20px;
 }
 
-.views {
+.left .views {
     float: left;
+}
+
+.right .views {
+    display: block;
+    margin-top: 5px;
+}
+
+.right .views, .right .author {
+    color: gray;
 }
 
 .options-button {
@@ -102,12 +122,18 @@ body {
     margin: 5px;
 }
 
-.next-video-style{
-    position: relative;
-    left: 200px;
-}
-
-.next-video-text{
+.next-video{
     display: block;
     clear: both;
 }
+
+.right img {
+    float: left;
+    margin-right: 10px;
+}
+
+.disabled-comment-info {
+    margin: 30px auto;
+    width: 300px;
+}
+
