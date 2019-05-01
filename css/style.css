@@ -67,7 +67,11 @@ body {
 
 .next-video {
     width: 500px;
+    display: block;
 
+}
+.more-videos{
+    width: 500px;
 }
 
 .video-title {
@@ -101,4 +105,9 @@ body {
 .next-video-style{
     position: relative;
     left: 200px;
+}
+
+.next-video-text{
+    display: block;
+    clear: both;
 }
