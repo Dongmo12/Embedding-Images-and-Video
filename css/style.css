@@ -3,7 +3,7 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
-.navbar{
+.navbar {
     background-color: white;
     position: fixed;
     top: 0;
@@ -35,7 +35,7 @@ body {
     width: 30%
 }
 
-.search-id{
+.search-id {
     width: 80%;
 }
 
@@ -56,8 +56,8 @@ body {
     font-weight: 500;
 }
 
-.comments{
-    width: 645px;
+.comments {
+    width: 100%;
     float: left;
 }
 
@@ -71,7 +71,25 @@ body {
     font-weight: 400;
 }
 
-.comment{
+.comment {
     font-size: 18px;
     
+}
+
+.views-and-options {
+    padding: 20px 0 8px 0;
+    margin-bottom: 20px;
+    clear: both;
+    border-bottom: 1px solid rgba(0,0,0,0.10);
+    display: block;
+    height: 20px;
+}
+
+.views {
+    float: left;
+}
+
+.options-button {
+    float: right;
+    margin: 5px;
 }
