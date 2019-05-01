@@ -13,6 +13,10 @@ body {
 
 }
 
+.navbar > img {
+    width: 100%;
+}
+
 .video {
     margin-top: 90px;
     width: 100%;
