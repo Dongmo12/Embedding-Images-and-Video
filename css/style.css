@@ -8,6 +8,10 @@ a {
     color: gray;
 }
 
+iframe {
+    width: 100%;
+}
+
 .navbar {
     background-color: white;
     position: fixed;
