@@ -75,3 +75,8 @@ body {
     font-size: 18px;
     
 }
+
+.next-video-style{
+    position: relative;
+    left: 200px;
+}
