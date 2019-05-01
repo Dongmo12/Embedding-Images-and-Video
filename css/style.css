@@ -76,6 +76,7 @@ body {
     
 }
 
+<<<<<<< HEAD
 .views-and-options {
     padding: 20px 0 8px 0;
     margin-bottom: 20px;
@@ -92,4 +93,9 @@ body {
 .options-button {
     float: right;
     margin: 5px;
+}
+
+.next-video-style{
+    position: relative;
+    left: 200px;
 }
